@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -27,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyAH21yA0Flu81TwavgPIXsLck3anTBFvkc",
+        "authDomain": "shop-review-f4dcf.firebaseapp.com",
+        "projectId": "shop-review-f4dcf",
+        "storageBucket": "shop-review-f4dcf.appspot.com",
+        "messagingSenderId": "7477886343",
+        "appId": "1:7477886343:web:72622eca0c203b04e4a722",
+        "measurementId": "G-SMPMB1FZ4P"
+      }
     }
   }
 }
