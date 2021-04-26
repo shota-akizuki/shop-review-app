@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { HomeScreen } from "../lib/screens/HomeScreen";
 import { ShopScreen } from "../lib/screens/ShopScreen";
-import { RootStackParamList } from "../lib/types/navigation";
+import { RootStackParamList } from "../types/navigation";
 import { CreateReviewScreen } from "../lib/screens/CreateReviewScreen";
 
 const Stack = createStackNavigator<RootStackParamList>();

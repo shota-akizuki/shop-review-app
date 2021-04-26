@@ -1,4 +1,5 @@
 import firebase from "firebase/app";
+import "firebase/firestore";
 
 //レビューの一覧にユーザ名をのせる時などに使う
 type UserRef = {

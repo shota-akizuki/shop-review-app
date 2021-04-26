@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, FlatList, SafeAreaView } from "react-native";
 import { ShopReviewItem } from "../../components/ShopReviewItem";
 import { getShops } from "../firebase";
-import { Shop } from "../types/shop";
+import { Shop } from "../../types/shop";
 import { StackNavigationProp } from "@react-navigation/stack";
-import { RootStackParamList } from "../types/navigation";
+import { RootStackParamList } from "../../types/navigation";
 
 type Props = {
   navigation: StackNavigationProp<RootStackParamList, "Home">;

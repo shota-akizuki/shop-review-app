@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { RootStackParamList } from "../lib/types/navigation";
+import { RootStackParamList } from "../types/navigation";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { HomeStackNavigator } from "./HomeStackNavigator";
 import { UserScreen } from "../lib/screens/UserScreen";

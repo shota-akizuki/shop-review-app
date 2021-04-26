@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, Image } from "react-native";
 import moment from "moment";
 /* components */
 import { Stars } from "../components/Stars";
-import { Review } from "../lib/types/review";
+import { Review } from "../types/review";
 /* types */
 
 type Props = {

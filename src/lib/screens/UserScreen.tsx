@@ -9,7 +9,7 @@ import { Form } from "../../components/Form";
 import { Loading } from "../../components/Loading";
 import { UserContext } from "../../contexts/userContext";
 import { updateUser } from "../firebase";
-import { RootStackParamList } from "../types/navigation";
+import { RootStackParamList } from "../../types/navigation";
 
 type Props = {
   navigation: StackNavigationProp<RootStackParamList, "User">;

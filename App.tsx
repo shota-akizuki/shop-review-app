@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { User } from "./src/lib/types/user";
+import { User } from "./src/types/user";
 import { AppNavigator } from "./src/navigation/AppNavigator";
 import { UserContext } from "./src/contexts/userContext";
 import { ReviewsContext } from "./src/contexts/reviewsContext";
-import { Review } from "./src/lib/types/review";
+import { Review } from "./src/types/review";
 
 export default function App() {
   const [user, setUser] = useState<User>();

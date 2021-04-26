@@ -1,10 +1,10 @@
 import Constants from "expo-constants";
 import firebase from "firebase/app";
 import "firebase/firestore";
-import { Shop } from "./types/shop";
+import { Shop } from "../types/shop";
 import "firebase/auth";
-import { initialUser, User } from "./types/user";
-import { Review } from "./types/review";
+import { initialUser, User } from "../types/user";
+import { Review } from "../types/review";
 
 //Firebaseの初期化がされていないなら初期化する
 if (!firebase.apps.length) {

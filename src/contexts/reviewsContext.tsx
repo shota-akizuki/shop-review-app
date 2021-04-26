@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { Review } from "../lib/types/review";
+import { Review } from "../types/review";
 
 type ReviewsContextValue = {
   reviews: Review[];
